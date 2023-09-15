@@ -1,11 +1,12 @@
-// import logo from './logo.svg';
-import './App.css';
-import Card from './components/index';
+// import Card from './components/index';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Header from './components/header/header.jsx';
 
 function App() {
   return (
     <>
-      <Card />
+      <Header />
     </>
   );
 }
